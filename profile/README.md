@@ -74,7 +74,6 @@ We welcome contributions from developers, automation enthusiasts, and AI builder
 
 **BotLattice** is built and maintained by passionate developers exploring the future of automation.
 
-📍 India  
 📧 anthropicbots@gmail.com  
 
 ---
