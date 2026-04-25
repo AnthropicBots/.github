@@ -1,4 +1,4 @@
-# 🤖 BotLattice
+# 🤖 Anthropic Bots
 
 **An interconnected lattice of bots working in harmony across repositories, teams, and pipelines.**
 
@@ -6,7 +6,7 @@
 
 ## 🌐 Overview
 
-**BotLattice** is an organization focused on building intelligent, collaborative automation systems.  
+**AnthropicBots** is an organization focused on building intelligent, collaborative automation systems.  
 Our goal is to create a network (or *lattice*) of bots that seamlessly interact to streamline development workflows, enhance productivity, and enable scalable automation.
 
 ---
@@ -75,7 +75,7 @@ We welcome contributions from developers, automation enthusiasts, and AI builder
 **BotLattice** is built and maintained by passionate developers exploring the future of automation.
 
 📍 India  
-📧 ymohit799057@gmail.com  
+📧 anthropicbots@gmail.com  
 
 ---
 
