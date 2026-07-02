@@ -1,99 +1,62 @@
-# 🤖 Anthropic Bots
+# AnthropicBots
 
-**An interconnected lattice of bots working in harmony across repositories, teams, and pipelines.**
+**Open-source systems for AI alignment research, developer automation, and local-first agentic tooling.**
 
----
-
-## 🌐 Overview
-
-**AnthropicBots** is an organization focused on building intelligent, collaborative automation systems.  
-Our goal is to create a network (or *lattice*) of bots that seamlessly interact to streamline development workflows, enhance productivity, and enable scalable automation.
+[![Repos](https://img.shields.io/badge/repositories-10-informational)]()
+[![License](https://img.shields.io/badge/license-MIT-green)]()
 
 ---
 
-## 🚀 Vision
+## About
 
-We believe in:
-- 🔗 **Interconnected systems** — Bots that communicate and collaborate  
-- ⚙️ **Automation-first workflows** — Reducing manual effort  
-- 🧠 **Intelligent pipelines** — Smarter CI/CD and DevOps  
-- 🌍 **Scalable ecosystems** — Designed to grow across teams and projects  
+This organization hosts research and engineering projects built by **Mohit Yadav**, spanning LLM alignment research, GitHub automation, and local-first multi-agent systems. Projects here favor reproducibility, honest documentation, and running on consumer hardware over cloud dependency.
 
 ---
 
-## 🧩 What We Build
+## Featured Projects
 
-- 🤖 Automation bots for repositories  
-- 🔄 CI/CD pipeline assistants  
-- 📊 Monitoring and reporting bots  
-- 🧠 AI-powered workflow tools  
-- 🔗 Cross-repo integration systems  
-
----
-
-## 📂 Repositories
-
-Explore our projects to see how each bot contributes to the larger lattice system.
-
-> Each repository is designed as a modular component that integrates into the broader BotLattice ecosystem.
+| Repository | Description | Stack | Status |
+|---|---|---|---|
+| **[dpo-vs-rlhf-alignmet-study](https://github.com/AnthropicBots/dpo-vs-rlhf-alignmet-study)** | Empirical comparison of DPO vs. RLHF alignment on GPT-2, trained on the 160,800-pair Anthropic HH-RLHF dataset. Full pipeline, results, and paper draft (targeting EMNLP/COLING) included. | Python, PyTorch, HuggingFace | Active — results published |
+| **[hiero-bot-py](https://github.com/AnthropicBots/hiero-bot-py)** | Production FastAPI GitHub App for maintainer automation: PR health scoring, reviewer recommendations, stale-issue management, and a live analytics dashboard. 76+ tests, deployed. | Python, FastAPI, SQLAlchemy, APScheduler | Deployed — 44 releases |
+| **[mats-compute-admin](https://github.com/AnthropicBots/mats-compute-admin)** | Compute resource administration toolkit for research fellowship programs — scholar provisioning, budget tracking, API key lifecycle, Slurm/HPC monitoring, and IAM auditing. 41 passing tests. | Python (stdlib-first) | Complete |
+| **[HydraNet / Loopcutter](https://github.com/AnthropicBots/HydraNet)** | Local-first multi-agent coding assistant focused on one problem: detecting when an agent loops on a broken fix, rolling back, and forcing a genuinely different approach. Runs on consumer GPUs, no cloud calls. | Python, LangGraph, Tree-sitter, Docker | Pre-alpha — building in public |
+| **[ptet-web](https://github.com/AnthropicBots/ptet-web)** | Informational website providing PTET-related resources in a clean, user-friendly format. | HTML | Active |
+| **[E-commerce](https://github.com/AnthropicBots/E-commerce)** | Responsive e-commerce platform with product browsing and cart functionality. | JavaScript | Active |
+| **[makemore](https://github.com/AnthropicBots/makemore)** | Character-level language modeling exercises exploring autoregressive generation fundamentals. | Python | Learning project |
+| **[AI-Resume-Builder](https://github.com/AnthropicBots/AI-Resume-Builder)** | Tool for generating and formatting resumes with AI assistance. | — | Active |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Languages:** Python, JavaScript, TypeScript, C++  
-- **Tools:** GitHub Actions, Docker, Kubernetes  
-- **AI/ML:** OpenAI APIs, automation frameworks  
-- **DevOps:** CI/CD pipelines, cloud integrations  
+`Python` · `FastAPI` · `PyTorch` · `React` · `SQLAlchemy` · `Docker` · `PostgreSQL` · `GitHub Actions` · `Tree-sitter`
 
 ---
 
-## 🤝 Contributing
+## Philosophy
 
-We welcome contributions from developers, automation enthusiasts, and AI builders!
-
-### Steps to contribute:
-1. Fork a repository  
-2. Create a feature branch (`feature/your-feature-name`)  
-3. Commit your changes  
-4. Push to your fork  
-5. Submit a Pull Request  
+- **Reproducibility over hype** — results are published with numbers, including failures where relevant.
+- **Consumer hardware first** — projects are built and benchmarked on hardware anyone can access, not assumed cloud budgets.
+- **Honest scope** — READMEs describe what a project actually does before what it aspires to.
 
 ---
 
-## 📜 Guidelines
+## Contributing
 
-- Write clean, maintainable code  
-- Follow repository-specific contribution rules  
-- Ensure proper documentation  
-- Add tests where applicable  
+1. Fork the relevant repository
+2. Create a feature branch (`feature/your-feature-name`)
+3. Commit your changes with clear messages
+4. Open a Pull Request describing the change and motivation
 
----
-
-## 👥 Team
-
-**BotLattice** is built and maintained by passionate developers exploring the future of automation.
-
-📧 anthropicbots@gmail.com  
+Repository-specific contribution guidelines, where they exist, take precedence over this general note.
 
 ---
 
-## ⭐ Support
+## Contact
 
-If you like what we’re building:
-- Star ⭐ our repositories  
-- Share with others  
-- Contribute to the lattice  
+Reach out via GitHub Issues on the relevant repository, or [anthropicbots@gmail.com](mailto:anthropicbots@gmail.com).
 
 ---
 
-## 🔮 Future Goals
-
-- Fully autonomous bot ecosystems  
-- Self-optimizing pipelines  
-- AI-driven development assistants  
-- Cross-platform automation networks  
-
----
-
-> *“Individually, bots are powerful. Together, they form a lattice.”*
+<sub>© 2026 AnthropicBots. Individual repositories are licensed under MIT unless otherwise noted.</sub>
