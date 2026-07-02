@@ -4,26 +4,26 @@
 
 [![Repos](https://img.shields.io/badge/repositories-10-informational)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
-[![Owner](https://img.shields.io/badge/Owner-mohityadav8-181717?logo=github)](https://github.com/mohityadav8)
+[![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)]()
+[![Last Commit](https://img.shields.io/github/last-commit/AnthropicBots/hiero-bot-py?label=last%20activity)]()
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Building+local-first+agentic+tooling;Researching+LLM+alignment+(DPO+vs+RLHF);Automating+open-source+maintainer+workflows" alt="typing animation" />
 
 ---
 
-## Owner
+## Table of Contents
 
-<table>
-<tr>
-<td width="120"><img src="https://github.com/mohityadav8.png" width="100" style="border-radius:50%" /></td>
-<td>
-
-**Mohit Yadav** ([@mohityadav8](https://github.com/mohityadav8))
-Full Stack & AI Alignment Research · Chandigarh University
-
-[![GitHub followers](https://img.shields.io/github/followers/mohityadav8?label=Follow&style=social)](https://github.com/mohityadav8)
-[![Profile views](https://komarev.com/ghpvc/?username=mohityadav8&label=Profile%20views&color=blue&style=flat)](https://github.com/mohityadav8)
-
-</td>
-</tr>
-</table>
+- [About](#about)
+- [Featured Projects](#featured-projects)
+- [Tech Stack](#tech-stack)
+- [GitHub Trophies](#github-trophies)
+- [Activity & Stats](#activity--stats)
+- [Star History](#star-history)
+- [Roadmap](#roadmap)
+- [Philosophy](#philosophy)
+- [Contributing](#contributing)
+- [Connect](#connect)
+- [Contact](#contact)
 
 ---
 
@@ -52,7 +52,23 @@ This organization hosts research and engineering projects built by **Mohit Yadav
 
 ## Tech Stack
 
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,react,postgres,docker,githubactions,git,cpp,nodejs" />
+
+</div>
+
 `Python` · `FastAPI` · `PyTorch` · `React` · `SQLAlchemy` · `Docker` · `PostgreSQL` · `GitHub Actions` · `Tree-sitter`
+
+---
+
+## GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=mohityadav8&theme=radical&no-frame=true&row=1&column=6" />
+
+</div>
 
 ---
 
@@ -75,6 +91,21 @@ Repository-specific contribution guidelines, where they exist, take precedence o
 
 ---
 
+## Connect
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-mohityadav8-181717?style=for-the-badge&logo=github)](https://github.com/mohityadav8)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](#)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6C63FF?style=for-the-badge&logo=vercel)](#)
+[![Instagram](https://img.shields.io/badge/Instagram-@tech__to__tech__-E4405F?style=for-the-badge&logo=instagram)](#)
+
+*(swap the `#` placeholders above for your actual LinkedIn / portfolio / Instagram links)*
+
+</div>
+
+---
+
 ## Activity & Stats
 
 <div align="center">
@@ -89,6 +120,30 @@ Repository-specific contribution guidelines, where they exist, take precedence o
 </div>
 
 > Rendered live from GitHub's contribution data — updates automatically, no manual edits required.
+
+---
+
+## Star History
+
+<div align="center">
+
+<a href="https://star-history.com/#AnthropicBots/hiero-bot-py&AnthropicBots/dpo-vs-rlhf-alignmet-study&AnthropicBots/mats-compute-admin&Date">
+  <img src="https://api.star-history.com/svg?repos=AnthropicBots/hiero-bot-py,AnthropicBots/dpo-vs-rlhf-alignmet-study,AnthropicBots/mats-compute-admin&type=Date" width="80%" />
+</a>
+
+</div>
+
+---
+
+## Roadmap
+
+- [x] Ship `hiero-bot-py` v2 with live dashboard and PR health scoring
+- [x] Publish DPO vs. RLHF empirical results and paper draft
+- [x] Build `mats-compute-admin` with full test coverage
+- [ ] Take `Loopcutter` (HydraNet) from single-machine loop to multi-node coordination
+- [ ] Run Loopcutter against a real slice of SWE-bench Lite
+- [ ] Submit the DPO vs. RLHF paper to EMNLP / COLING
+- [ ] Expand `hiero-bot-py` reviewer recommendation with embedding-based file similarity
 
 ---
 
