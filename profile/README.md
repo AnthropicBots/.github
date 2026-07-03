@@ -2,7 +2,7 @@
 
 **Open-source systems for AI alignment research, developer automation, and local-first agentic tooling.**
 
-[![Repos](https://img.shields.io/badge/repositories-10-informational)]()
+[![Repos](https://img.shields.io/badge/repositories-11-informational)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 [![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen)]()
 [![Last Commit](https://img.shields.io/github/last-commit/AnthropicBots/hiero-bot-py?label=last%20activity)]()
@@ -29,7 +29,9 @@
 
 ## About
 
-This organization hosts research and engineering projects built by **Mohit Yadav**, spanning LLM alignment research, GitHub automation, and local-first multi-agent systems. Projects here favor reproducibility, honest documentation, and running on consumer hardware over cloud dependency.
+This organization hosts research and engineering projects built by **Mohit Yadav**, spanning LLM alignment research, GitHub automation, developer productivity tools, and local-first multi-agent systems.
+
+Projects emphasize reproducibility, maintainability, honest documentation, strong engineering practices, and practical software that runs on accessible hardware whenever possible.
 
 ---
 
@@ -41,6 +43,7 @@ This organization hosts research and engineering projects built by **Mohit Yadav
 | **[hiero-bot-py](https://github.com/AnthropicBots/hiero-bot-py)** | Production FastAPI GitHub App for maintainer automation: PR health scoring, reviewer recommendations, stale-issue management, and a live analytics dashboard. 76+ tests, deployed. | Python, FastAPI, SQLAlchemy, APScheduler | ![Stars](https://img.shields.io/github/stars/AnthropicBots/hiero-bot-py?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/hiero-bot-py?style=flat-square&label=) |
 | **[mats-compute-admin](https://github.com/AnthropicBots/mats-compute-admin)** | Compute resource administration toolkit for research fellowship programs — scholar provisioning, budget tracking, API key lifecycle, Slurm/HPC monitoring, and IAM auditing. 41 passing tests. | Python (stdlib-first) | ![Stars](https://img.shields.io/github/stars/AnthropicBots/mats-compute-admin?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/mats-compute-admin?style=flat-square&label=) |
 | **[HydraNet / Loopcutter](https://github.com/AnthropicBots/HydraNet)** | Local-first multi-agent coding assistant focused on one problem: detecting when an agent loops on a broken fix, rolling back, and forcing a genuinely different approach. Runs on consumer GPUs, no cloud calls. | Python, LangGraph, Tree-sitter, Docker | ![Stars](https://img.shields.io/github/stars/AnthropicBots/HydraNet?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/HydraNet?style=flat-square&label=) |
+| **[IssueScout](https://github.com/AnthropicBots/IssueScout)** | Full-stack GitHub contribution discovery platform that analyzes repositories, identifies contributor-friendly issues, detects linked pull requests, and ranks opportunities using evidence-driven confidence scoring. | FastAPI, React, TypeScript, Python | ![Stars](https://img.shields.io/github/stars/AnthropicBots/IssueScout?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/IssueScout?style=flat-square&label=) |
 | **[ptet-web](https://github.com/AnthropicBots/ptet-web)** | Informational website providing PTET-related resources in a clean, user-friendly format. | HTML | ![Stars](https://img.shields.io/github/stars/AnthropicBots/ptet-web?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/ptet-web?style=flat-square&label=) |
 | **[E-commerce](https://github.com/AnthropicBots/E-commerce)** | Responsive e-commerce platform with product browsing and cart functionality. | JavaScript | ![Stars](https://img.shields.io/github/stars/AnthropicBots/E-commerce?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/E-commerce?style=flat-square&label=) |
 | **[makemore](https://github.com/AnthropicBots/makemore)** | Character-level language modeling exercises exploring autoregressive generation fundamentals. | Python | ![Stars](https://img.shields.io/github/stars/AnthropicBots/makemore?style=flat-square&label=) | ![Forks](https://img.shields.io/github/forks/AnthropicBots/makemore?style=flat-square&label=) |
@@ -54,11 +57,11 @@ This organization hosts research and engineering projects built by **Mohit Yadav
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,pytorch,react,postgres,docker,githubactions,git,cpp,nodejs" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,react,typescript,vite,pytorch,postgres,docker,githubactions,git,nodejs" />
 
 </div>
 
-`Python` · `FastAPI` · `PyTorch` · `React` · `SQLAlchemy` · `Docker` · `PostgreSQL` · `GitHub Actions` · `Tree-sitter`
+`Python` · `FastAPI` · `React` · `TypeScript` · `Vite` · `PyTorch` · `SQLAlchemy` · `Docker` · `PostgreSQL` · `GitHub Actions` · `Tree-sitter`
 
 ---
 
@@ -137,6 +140,7 @@ Repository-specific contribution guidelines, where they exist, take precedence o
 
 ## Roadmap
 
+- [x] Release **IssueScout v1.0** with a production-ready React + FastAPI architecture
 - [x] Ship `hiero-bot-py` v2 with live dashboard and PR health scoring
 - [x] Publish DPO vs. RLHF empirical results and paper draft
 - [x] Build `mats-compute-admin` with full test coverage
